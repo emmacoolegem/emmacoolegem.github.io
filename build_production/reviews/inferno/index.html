@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=b29283510156fd5b2e0a">
+
+        <title>Emma Coolegem</title>
+    </head>
+    <body>
+        <div id="app">
+            <header class="container site-header">
+    <div class="site-header-content">
+            <h1>Emma Coolegem</h1>
+            <hr>
+        
+            <span class="burger" v-on:click="toggleNav()">
+                <i class="fas fa-bars"></i>
+            </span>
+        
+            <div class="socials">
+                <a href="https://www.instagram.com/emmacoolegem" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+        
+                <a href="https://nl.linkedin.com/in/emma-coolegem-32b72515a" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+        
+                <a href="mailto:emmacoolegem@outlook.com">
+                    <i class="fas fa-at"></i>
+                </a>
+            </div>
+    </div>
+</header>            <transition name="fade" v-cloak>
+    <div class="nav-overlay" v-if="navIsOpen" v-bind:class="{show : navIsOpen}">
+        <nav class="container site-nav">
+    <ul>
+        <li><a href="/">All reviews</a></li>
+        <li><a href="/genres">All genres</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+</nav>    </div>
+</transition>
+
+            <main class="container">
+                    <article class="review">
+        <header class="review-header">
+            <h2 class="review-title">Inferno</h2>
+            <span class="review-date"></span>
+            <span class="review-rating">
+                <stars rating=""></stars>
+            </span>
+        </header>
+
+            </article>
+            </main>
+        </div>
+
+        <script src="/assets/build/js/main.js?id=8005956c4326bc90c5aa"></script>
+    </body>
+</html>
